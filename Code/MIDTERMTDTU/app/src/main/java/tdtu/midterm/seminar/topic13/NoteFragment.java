@@ -167,6 +167,7 @@ public class NoteFragment extends Fragment implements ISendData {
                         }
                     });
             snackbar.show();
+
         } else {
             Snackbar snackbar = Snackbar.make(coordinatorLayout,"Xóa Thành Công",Snackbar.LENGTH_INDEFINITE).
                     setAction("Tắt", new View.OnClickListener() {
